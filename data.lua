@@ -16,7 +16,7 @@ data:extend({
 	{
 		type = "item-with-entity-data",
 		name = "PM1225",
-		icon = "__base__/graphics/icons/diesel-locomotive.png",
+		icon = "__PM1225__/icon_x512.png",
 		flags = {"goes-to-quickbar"},
 		subgroup = "transport",
 		order = "a[train-system]-f[PM1225]",
@@ -26,7 +26,7 @@ data:extend({
 	{
 		type = "locomotive",
 		name = "PM1225",
-		icon = "__base__/graphics/icons/diesel-locomotive.png",
+		icon = "__PM1225__/icon_x512.png",
 		flags = {"placeable-neutral", "player-creation", "placeable-off-grid", "not-on-map"},
 		minable = {mining_time = 1, result = "PM1225"},
 		mined_sound = {filename = "__core__/sound/deconstruct-medium.ogg"},
@@ -142,8 +142,8 @@ data:extend({
 			{
 				{
 					priority = "very-low",
-					width = 476,
-					height = 460,
+					width = 512,
+					height = 680/2,
 					direction_count = 256,
 					filenames =
 					{
@@ -158,21 +158,16 @@ data:extend({
 						"__PM1225__/graphics/PM1225_lr_entity_spritesheet_8.png",
 						"__PM1225__/graphics/PM1225_lr_entity_spritesheet_9.png",
 						"__PM1225__/graphics/PM1225_lr_entity_spritesheet_10.png",
-						"__PM1225__/graphics/PM1225_lr_entity_spritesheet_11.png",
-						"__PM1225__/graphics/PM1225_lr_entity_spritesheet_12.png",
-						"__PM1225__/graphics/PM1225_lr_entity_spritesheet_13.png",
-						"__PM1225__/graphics/PM1225_lr_entity_spritesheet_14.png",
-						"__PM1225__/graphics/PM1225_lr_entity_spritesheet_15.png",
 					},
 					line_length = 4,
-					lines_per_file = 4,
+					lines_per_file = 6,
 					shift = {0.0, -0.5},
 					scale = 1,
 					hr_version =
 					{
 						priority = "very-low",
 						width = 476*2,
-						height = 460*2,
+						height = 680,
 						direction_count = 256,
 						filenames =
 						{
@@ -219,30 +214,9 @@ data:extend({
 							"__PM1225__/graphics/PM1225_hr_entity_spritesheet_40.png",
 							"__PM1225__/graphics/PM1225_hr_entity_spritesheet_41.png",
 							"__PM1225__/graphics/PM1225_hr_entity_spritesheet_42.png",
-							"__PM1225__/graphics/PM1225_hr_entity_spritesheet_43.png",
-							"__PM1225__/graphics/PM1225_hr_entity_spritesheet_44.png",
-							"__PM1225__/graphics/PM1225_hr_entity_spritesheet_45.png",
-							"__PM1225__/graphics/PM1225_hr_entity_spritesheet_46.png",
-							"__PM1225__/graphics/PM1225_hr_entity_spritesheet_47.png",
-							"__PM1225__/graphics/PM1225_hr_entity_spritesheet_48.png",
-							"__PM1225__/graphics/PM1225_hr_entity_spritesheet_49.png",
-							"__PM1225__/graphics/PM1225_hr_entity_spritesheet_50.png",
-							"__PM1225__/graphics/PM1225_hr_entity_spritesheet_51.png",
-							"__PM1225__/graphics/PM1225_hr_entity_spritesheet_52.png",
-							"__PM1225__/graphics/PM1225_hr_entity_spritesheet_53.png",
-							"__PM1225__/graphics/PM1225_hr_entity_spritesheet_54.png",
-							"__PM1225__/graphics/PM1225_hr_entity_spritesheet_55.png",
-							"__PM1225__/graphics/PM1225_hr_entity_spritesheet_56.png",
-							"__PM1225__/graphics/PM1225_hr_entity_spritesheet_57.png",
-							"__PM1225__/graphics/PM1225_hr_entity_spritesheet_58.png",
-							"__PM1225__/graphics/PM1225_hr_entity_spritesheet_59.png",
-							"__PM1225__/graphics/PM1225_hr_entity_spritesheet_60.png",
-							"__PM1225__/graphics/PM1225_hr_entity_spritesheet_61.png",
-							"__PM1225__/graphics/PM1225_hr_entity_spritesheet_62.png",
-							"__PM1225__/graphics/PM1225_hr_entity_spritesheet_63.png",
 						},
 						line_length = 2,
-						lines_per_file = 2,
+						lines_per_file = 3,
 						shift = {0.0, -0.5},
 						scale = 0.5
 					}
