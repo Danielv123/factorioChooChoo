@@ -28,6 +28,7 @@ data:extend({
 		type = "locomotive",
 		name = "PM1225",
 		icon = "__ChooChoo__/icon_x512.png",
+		icon_size = 512,
 		flags = {"placeable-neutral", "player-creation", "placeable-off-grid", "not-on-map"},
 		minable = {mining_time = 1, result = "PM1225"},
 		mined_sound = {filename = "__core__/sound/deconstruct-medium.ogg"},
@@ -232,9 +233,9 @@ data:extend({
 		{
 			-- left side
 			{
-				type = "create-smoke",
+				type = "create-trivial-smoke",
 				repeat_count = 125,
-				entity_name = "smoke-train-stop",
+				smoke_name = "smoke-train-stop",
 				initial_height = 0,
 				-- smoke goes to the left
 				speed = {-0.03, 0},
@@ -244,9 +245,9 @@ data:extend({
 			},
 			-- right side
 			{
-				type = "create-smoke",
+				type = "create-trivial-smoke",
 				repeat_count = 125,
-				entity_name = "smoke-train-stop",
+				smoke_name = "smoke-train-stop",
 				initial_height = 0,
 				-- smoke goes to the right
 				speed = {0.03, 0},

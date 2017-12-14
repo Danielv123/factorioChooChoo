@@ -2,10 +2,10 @@
 {
 	"name": "ChooChoo",
 	"title": "ChooChoo trains pack",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"date": "15-08-2017",
 	"author": "Danielv123",
 	"dependencies": ["base >= 0.15"],
-	"factorio_version": "0.15",
+	"factorio_version": "0.16",
 	"description": "Adds the famous PM1225 as a locomotive"
 }
